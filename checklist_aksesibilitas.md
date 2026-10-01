@@ -1,7 +1,7 @@
 # Checklist Syarat Submission
 
 - **Tampilan Desktop**
-  (Screenshot/Desktop.png)
+  !(Screenshot/Desktop.png)
 
 - **Tampilan Mobile**
-  (Screenshot/Mobile.png)
+  !(Screenshot/Mobile.png)
