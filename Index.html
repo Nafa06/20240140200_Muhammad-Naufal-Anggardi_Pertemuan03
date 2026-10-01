@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum Pertemuan 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="header-brand">
+            <img src="CHARTIS.png" alt="Logo" class="logo">
+            <h1>CHARTIS</h1>
+        </div>
+    </header>
+    <nav class="nav">
+        <a href="index.html">Home</a>
+        <a href="#profile">Profile</a>
+        <a href="#vision-mission">Visi & Misi</a>
+        <a href="#formdata">Form</a>
+    </nav>
+    <section id="profile" class="profile-section">
+        <h3>Profile</h3>
+        <p>Menyediakan layanan pemetaan struktural bawah tanah menggunakan teknologi non destruktif yang menjamin keselamatan dan keamanan lingkungan sekitar dengan tetap menyajikan data yang faktual, aktual, dan diperbarui secara berkala.</p>
+    </section>
+
+    <!-- Bagian Visi & Misi yang gayanya disamakan dengan Profile -->
+    <section id="vision-mission" class="profile-section">
+        <h3>Visi</h3>
+        <p>Menyediakan layanan pemetaan bawah tanah terpercaya, akurat, dan aktual demi keamanan dan keselamatan dalam pembangunan yang berkelanjutan.</p>
+        
+        <h3>Misi</h3>
+        <p>Demi mewujudkan visi perusahaan, perusahaan memiliki misi-misi sebagai berikut:</p>
+        <ul>
+            <li>Menyediakan data bawah tanah yang akurat menggunakan teknologi non-destruktif terkini guna meminimalisir risiko kecelakaan konstruksi.</li>
+            <li>Menyelenggarakan pemantauan dan pembaruan data secara berkala untuk penanggulangan bencana infrastruktur.</li>
+            <li>Menjamin keaslian hasil pemindaian lapangan secara presisi sebagai acuan utama perencanaan tata kota yang berkelanjutan.</li>
+        </ul>
+    </section>
+
+    <form id="formdata" action="#" method="post" class="form-container">
+        <h3>Form Pendaftaran</h3>
+        <div class="form-group">
+            <label for="nama">Masukkan nama anda: </label>
+            <input type="text" id="nama" name="Nama" required>
+        </div>
+        <fieldset id="jeniskelamin">
+            <legend>Jenis Kelamin</legend>
+            <label><input type="radio" name="jenis_kelamin" id="pria" value="pria"> Pria</label>
+            <label><input type="radio" name="jenis_kelamin" id="wanita" value="wanita"> Wanita</label>
+        </fieldset>
+        <fieldset>
+            <legend>Dengan ini anda bersedia:</legend>
+            <div class="checkbox-group">
+                <label><input type="checkbox" name="wawancara" id="wawancara"> Dipanggil untuk wawancara</label>
+                <label><input type="checkbox" name="kebijakan" id="kebijakan"> Mematuhi kebijakan perusahaan</label>
+            </div>
+        </fieldset>
+        <button class="button" type="submit">Daftar</button>
+    </form>
+</body>
+</html>
